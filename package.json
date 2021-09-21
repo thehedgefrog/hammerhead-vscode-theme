@@ -1,0 +1,42 @@
+{
+	"name": "hammerhead",
+	"displayName": "Hammerhead",
+	"description": "A Visual Studio Code theme inspired by the blues of sharks and deep sea.",
+	"version": "1.1.0",
+	"publisher": "thehedgefrog",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thehedgefrog/hammerhead-vscode-theme"
+	},
+	"keywords": [
+		"Theme",
+		"Dark Theme",
+		"Hammerhead",
+		"Blue Theme"
+	],
+	"scripts": {
+		"publish-minor": "vsce publish minor",
+		"publish-major": "vsce publish major"
+	},
+	"galleryBanner": {
+		"color": "#000720",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "great-hammerhead.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Hammerhead",
+				"uiTheme": "vs-dark",
+				"path": "./themes/hammerhead-main-theme.json"
+			}
+		]
+	}
+}
